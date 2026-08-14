@@ -16,3 +16,22 @@ flutter run
 ```bash
 flutter test
 ```
+
+Structure des dossiers du projet ( version MVC)
+
+lib/
+│
+├── models/
+│   ├── emission.dart
+│   └── diffusion.dart
+│
+├── views/
+│   ├── home_page.dart
+│   ├── grille_emissions.dart
+│   ├── carte_emission.dart
+│   └── detail_page.dart
+│
+├── controllers/
+│   └── emission_controller.dart
+│
+└── main.dart
