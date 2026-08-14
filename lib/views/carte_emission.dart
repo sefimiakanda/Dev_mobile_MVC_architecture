@@ -39,7 +39,7 @@ class CarteEmission extends StatelessWidget {
                     emission.imageStream,
                     fit: BoxFit.cover,
                     errorBuilder: (context, error, stackTrace) =>
-                        const Container(
+                        Container(
                       color: Colors.grey,
                       child: Icon(Icons.broken_image, color: Colors.white),
                     ),
